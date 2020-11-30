@@ -293,7 +293,9 @@ footer img{
   .header p{
     font-size: 1.4rem;
   }
-
+  .header{
+    top:50%;
+  }
   #home_img{
     height: 300px;
   }  
@@ -301,6 +303,6 @@ footer img{
 
 @media (max-width:320px){
   .header{
-    top:50%;
+    top:80%;
   }
 }
