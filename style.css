@@ -182,6 +182,10 @@ footer img{
   #flag{
     display: none;
   }
+
+  .header{
+    top: 20%;
+  }
 }
 
 @media (max-width:930px){
@@ -301,7 +305,13 @@ footer img{
   }  
 }
 
-@media (max-width:320px){
+@media (max-width:420px){
+  .header{
+    top:60%;
+  }
+}
+
+@media (max-width:360px){
   .header{
     top:80%;
   }
